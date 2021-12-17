@@ -1,0 +1,101 @@
+﻿@page "{lang_id}"
+@model IndexModel
+@{
+    string? message = TempData["Message"] as string;
+}
+
+<div class="container">
+    <h2>
+    @Model.Language.Name
+    @if (!string.IsNullOrEmpty(Model.Language.NativeName))
+    {
+    <small class="text-muted">(@Model.Language.NativeName)</small>
+    }
+    </h2>
+
+    <div class="mb-3">
+        <a class="btn btn-primary" role="button"
+            asp-page="./New" asp-route-lang_id="@Model.Language.Id">
+            New Entry
+        </a>
+        <a class="btn btn-primary" role="button"
+            asp-page="./Index" asp-page-handler="RefreshFirstLetters" asp-route-lang_id="@Model.Language.Id">
+            Refresh First Letters
+        </a>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.Language.Abstraft))
+    {
+    <div class="lead">
+        <markdown markdown="@Model.Language.Abstraft"></markdown>
+    </div>
+    }
+
+    @if (message is not null)
+    {
+        <div class="alert alert-info">
+            @message
+        </div>
+    }
+
+    <ol class="dictionary">
+        @foreach (var group in Model.Groups)
+        {
+        <li class="letter-group">
+            <div class="letter-header">
+                <ol class="letter-list">
+                    @foreach (var letter in group.Letters)
+                    {
+                    <li class="letter-item">@letter.Value</li>
+                    }
+                </ol>
+            </div>
+            <ol class="entry-list">
+                @foreach (var entry in group.Entries)
+                {
+                <li class="entry" id="@DictionaryEntry.GenerateEntryTarget(entry)">
+                    <span class="entry-head">@*
+                        *@<span class="headword">@entry.Headword</span>@*
+                        *@@if (!string.IsNullOrEmpty(entry.Type)){<text> <span class="word-type">@entry.Type</span></text>}@*@
+                        *@@if (!string.IsNullOrEmpty(entry.Pronunciation)){<text> <span class="pronunciation">@entry.Pronunciation</span></text>}@*@
+                    *@</span>
+                    <span class="contents">
+                        @QSyntaxParser.ParseQSyntax(entry.Contents)
+                    @if (Model.CanEdit) 
+                    {
+                        <a class="link-primary" 
+                           asp-page="./Edit"
+                           asp-route-lang_id="@Model.Language.Id"
+                           asp-route-entry_id="@entry.Id">
+                            Edit
+                        </a>
+                        <a class="link-danger" 
+                           asp-page="./Delete"
+                           asp-route-lang_id="@Model.Language.Id"
+                           asp-route-entry_id="@entry.Id">
+                            Delete
+                        </a>
+                    }
+                    </span>
+                    @if (entry.Reversaks.Count>0)
+                    {
+                    <ul class="reversal-list">
+                        @foreach (var reversal in entry.Reversaks)
+                        {
+                        <li class="reversal">
+                            <span class="native">@reversal.Headword</span>
+                            @if (!string.IsNullOrEmpty(reversal.Contents))
+                            {
+                            <span class="contents">reversal.Contents</span>
+                            }
+                        </li>
+                        }
+                    </ul>
+                    }
+                </li>
+                }
+            </ol>
+        </li>
+        }
+    </ol>
+</div>

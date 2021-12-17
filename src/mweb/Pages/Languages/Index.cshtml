@@ -1,0 +1,34 @@
+﻿@page
+@model IndexModel
+
+<div class="container">
+
+<h2>Languages</h2>
+
+<p class="lead">
+    One of my favourite passtimes is the study of languages,
+    especially constructed languages which I find most
+    interesting. Here is a choice selection of the languages
+    I have created.
+</p>
+
+<div class="container">
+    <div class="row">
+        @foreach (var l in Model.Items) {
+        <div class="card col-md-6 col-lg-4 mb-3 mx-1">
+            <div class="card-body">
+                <h5 class="card.title">
+                    <a asp-page="./Language/Index" asp-route-lang_id="@l.Id">
+                    @l.Name
+                    @if (!string.IsNullOrEmpty(l.NativeName)) {
+                    <span class="text-muted">(@l.NativeName)</span>
+                    }
+                    </a>
+                </h5>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+</div>

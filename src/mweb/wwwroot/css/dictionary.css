@@ -1,0 +1,176 @@
+@charset "UTF-8";
+.dictionary {
+  --foreign: unset;
+  --native: unset;
+  --phonetic: unset;
+  --infix: unset;
+  --grammar: unset;
+  --ft-foreign: "Georgia Pro", "Georgia", serif;
+  --fts-foreign: italic var(--ft-foreign);
+  --line-ruler-style: dashed 1pt var(--bs-secondary);
+}
+.dictionary.colors-on {
+  --foreign: #1111ff;
+  --native: #11ff11;
+  --phonetic: #ff1111;
+  --infix: #ff11ff;
+  --grammar: #949494;
+}
+.dictionary ol, .dictionary ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.dictionary li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.dictionary .foreign, .dictionary .etym-root, .dictionary .headword {
+  font-family: var(--ft-foreign);
+  font-style: italic;
+  color: var(--foreign);
+}
+.dictionary .headword {
+  font-weight: bold;
+}
+.dictionary .native {
+  font-style: italic;
+  color: var(--native);
+}
+.dictionary .word-type {
+  color: var(--grammar);
+}
+.dictionary .word-type:before {
+  content: "(";
+}
+.dictionary .word-type:after {
+  content: ")";
+}
+.dictionary .phonetic {
+  color: var(--phonetic);
+}
+.dictionary .phonetic.phoneme:before {
+  content: "/";
+}
+.dictionary .phonetic.phoneme:after {
+  content: "/";
+}
+.dictionary .phonetic.allophone:before {
+  content: "[";
+}
+.dictionary .phonetic.allophone:after {
+  content: "]";
+}
+.dictionary .phonetic.phoneme.err-star:before {
+  content: "*/";
+}
+.dictionary .phonetic.allophone.err-star:before {
+  content: "*[";
+}
+.dictionary .etym-lang {
+  color: var(--grammar);
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+.dictionary .case, .dictionary .tense, .dictionary .mood {
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+.dictionary .err-star:before {
+  content: "∗";
+}
+.dictionary .pronunciation {
+  color: var(--phonetic);
+}
+.dictionary .pronunciation:before, .dictionary .pronunciation:after {
+  content: "/";
+}
+.dictionary .letter-group {
+  margin-bottom: 1em;
+}
+.dictionary .letter-group .letter-header {
+  padding-bottom: 0.25em;
+  margin-bottom: 0.75em;
+  border-bottom: var(--line-ruler-style);
+  text-align: center;
+}
+.dictionary .letter-group .letter-header ol.letter-list {
+  list-style: none;
+  display: inline;
+  font-family: var(--ft-foreign);
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.dictionary .letter-group .letter-header ol.letter-list:not(:last-child):after {
+  content: "–";
+}
+.dictionary .letter-group .letter-header ol.letter-list li.letter-item {
+  list-style: none;
+  display: inline;
+}
+.dictionary .letter-group .letter-header ol.letter-list li.letter-item:not(:last-child):after {
+  content: ", ";
+}
+.dictionary .letter-group .entry-list {
+  column-width: 16rem;
+  column-gap: 2em;
+  column-rule: var(--line-ruler-style);
+}
+.dictionary .letter-group .entry-list .entry {
+  text-align: justify;
+  text-indent: -2rem;
+  padding: 0.5rem;
+  padding-left: 2.5rem;
+  margin: -0.5rem;
+  margin-bottom: 0.5rem;
+  break-after: avoid-column;
+  break-inside: avoid-column;
+}
+.dictionary .letter-group .entry-list .entry a.btn {
+  text-indent: 0;
+}
+.dictionary .letter-group .entry-list .entry:after {
+  content: " ■";
+  opacity: 0.5;
+  display: inline;
+  margin-left: 0.25rem;
+}
+.dictionary .letter-group .entry-list .entry:hover {
+  background: var(--bs-gray-800);
+}
+.dictionary .letter-group .entry-list .entry:hover:after {
+  opacity: unset;
+}
+.dictionary .letter-group .entry-list .entry .entry-head:after {
+  content: ": ";
+}
+.dictionary .letter-group .entry-list .entry .entry-head .headword {
+  font-size: 1.25em;
+}
+.dictionary .letter-group .entry-list .entry .alt-forms, .dictionary .letter-group .entry-list .entry .reversal-list {
+  display: inline;
+  font-size: 0.88em;
+}
+.dictionary .letter-group .entry-list .entry .alt-forms:before, .dictionary .letter-group .entry-list .entry .reversal-list:before {
+  content: "(";
+}
+.dictionary .letter-group .entry-list .entry .alt-forms:after, .dictionary .letter-group .entry-list .entry .reversal-list:after {
+  content: ")";
+}
+.dictionary .letter-group .entry-list .entry .alt-forms > li, .dictionary .letter-group .entry-list .entry .reversal-list > li {
+  display: inline;
+}
+.dictionary .letter-group .entry-list .entry .alt-forms > li:not(:last-child):after, .dictionary .letter-group .entry-list .entry .reversal-list > li:not(:last-child):after {
+  content: "; ";
+}
+.dictionary .letter-group .entry-list .entry .alt-forms > li .trigger, .dictionary .letter-group .entry-list .entry .reversal-list > li .trigger {
+  color: var(--grammar);
+  font-variant: small-caps;
+}
+.dictionary .letter-group .entry-list .entry .alt-forms > li .trigger:before, .dictionary .letter-group .entry-list .entry .reversal-list > li .trigger:before {
+  content: "(";
+}
+.dictionary .letter-group .entry-list .entry .alt-forms > li .trigger:after, .dictionary .letter-group .entry-list .entry .reversal-list > li .trigger:after {
+  content: ")";
+}

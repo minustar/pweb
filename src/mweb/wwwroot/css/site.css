@@ -1,0 +1,9 @@
+﻿@import "dictionary.css";
+
+body main {
+    margin-top: 96px;
+}
+
+#main-lang-card {
+    background-image: url("../images/cards/main-lang.jpg");
+}

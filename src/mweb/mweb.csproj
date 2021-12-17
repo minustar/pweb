@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>Minustar.Website</RootNamespace>
+	</PropertyGroup>
+
+	<!-- Variables -->
+	<PropertyGroup>
+		<CurrentDate>$([System.DateTime]::Now.ToString(yyyyMMdd-HHmmss))</CurrentDate>
+	</PropertyGroup>
+
+	<!-- AssembblyInfo -->
+	<PropertyGroup>
+		<Product>Minustar Website (Personal)</Product>
+		<Version>3.0.0</Version>
+		<InformationalVersion>$(Version)-$(Configuration) [$(CurrentDate)]</InformationalVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="entities.json" />
+		<EmbeddedResource Include="phonetic.json" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="wwwroot\css\dictionary.scss" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0" />
+		<PackageReference Include="Microsoft.ASpNetCore.Identity.UI" Version="6.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+		<PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.5.3">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Westwind.AspNetCore.Markdown" Version="3.6.0" />
+	</ItemGroup>
+
+</Project>

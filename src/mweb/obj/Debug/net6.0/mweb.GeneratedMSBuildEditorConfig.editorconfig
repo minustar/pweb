@@ -1,0 +1,48 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Minustar.Website
+build_property.RootNamespace = Minustar.Website
+build_property.ProjectDir = C:\Users\Fentanvarra\OneDrive\pweb\src\mweb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\Fentanvarra\OneDrive\pweb\src\mweb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Fentanvarra/OneDrive/pweb/src/mweb/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fentanvarra/OneDrive/pweb/src/mweb/Pages/Languages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fentanvarra/OneDrive/pweb/src/mweb/Pages/Languages/Language/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzXExhbmd1YWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fentanvarra/OneDrive/pweb/src/mweb/Pages/Languages/Language/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZ3VhZ2VzXExhbmd1YWdlXE5ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fentanvarra/OneDrive/pweb/src/mweb/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fentanvarra/OneDrive/pweb/src/mweb/Pages/Shared/_NavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9OYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fentanvarra/OneDrive/pweb/src/mweb/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fentanvarra/OneDrive/pweb/src/mweb/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

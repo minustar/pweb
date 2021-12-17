@@ -1,0 +1,234 @@
+@use "sass:color";
+
+.dictionary {
+    --foreign: unset;
+    --native: unset;
+    --phonetic: unset;
+    --infix: unset;
+    --grammar: unset;
+
+    &.colors-on {
+        --foreign: #{color.scale(#0000AA, $lightness: 30%)};
+        --native: #{color.scale(#00AA00, $lightness: 30%)};
+        --phonetic: #{color.scale(#AA0000, $lightness: 30%)};
+        --infix: #{color.scale(#AA00AA, $lightness: 30%)};
+        --grammar: #{color.scale(#666666, $lightness: 30%)};
+    }
+
+    --ft-foreign: 'Georgia Pro', 'Georgia', serif;
+    --fts-foreign: italic var(--ft-foreign);
+    --line-ruler-style: dashed 1pt var(--bs-secondary);
+
+    ol, ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .foreign {
+        font-family: var(--ft-foreign);
+        font-style: italic;
+        ;
+        color: var(--foreign);
+    }
+
+    .headword {
+        @extend .foreign;
+        font-weight: bold;
+        ;
+    }
+
+    .native {
+        font-style: italic;
+        color: var(--native);
+    }
+
+    .word-type {
+        color: var(--grammar);
+
+        &:before {
+            content: "(";
+        }
+
+        &:after {
+            content: ")";
+        }
+    }
+
+    .phonetic {
+        color: var(--phonetic);
+
+        &.phoneme {
+            &:before {
+                content: "/"
+            }
+
+            &:after {
+                content: "/"
+            }
+        }
+
+        &.allophone {
+            &:before {
+                content: "["
+            }
+
+            &:after {
+                content: "]"
+            }
+        }
+
+        &.phoneme.err-star {
+            &:before {
+                content: "*/"
+            }
+        }
+
+        &.allophone.err-star {
+            &:before {
+                content: "*["
+            }
+        }
+    }
+
+    .etym-root {
+        @extend .foreign;
+    }
+
+    .etym-lang {
+        color: var(--grammar);
+        text-transform: lowercase;
+        font-variant: small-caps;
+    }
+
+    .case, .tense, .mood {
+        text-transform: lowercase;
+        font-variant: small-caps;
+    }
+
+    .err-star:before {
+        content: "\2217";
+    }
+
+    .pronunciation {
+        color: var(--phonetic);
+
+        &:before, &:after {
+            content: "/";
+        }
+    }
+
+    .letter-group {
+        margin-bottom: 1em;
+
+        .letter-header {
+            padding-bottom: 0.25em;
+            margin-bottom: 0.75em;
+            border-bottom: var(--line-ruler-style);
+            text-align: center;
+
+            ol.letter-list {
+                list-style: none;
+                display: inline;
+                font-family: var(--ft-foreign);
+                font-style: italic;
+                font-size: 1.5rem;
+
+                &:not(:last-child):after {
+                    content: "\2013";
+                }
+
+                li.letter-item {
+                    list-style: none;
+                    display: inline;
+
+                    &:not(:last-child):after {
+                        content: ", ";
+                    }
+                }
+            }
+        }
+
+        .entry-list {
+            column-width: 16rem;
+            column-gap: 2em;
+            column-rule: var(--line-ruler-style);
+
+            .entry {
+                text-align: justify;
+                text-indent: -2rem;
+                padding: 0.5rem;
+                padding-left: 2.5rem;
+                margin: -0.5rem;
+                margin-bottom: 0.5rem;
+                break-after: avoid-column;
+                break-inside: avoid-column;
+
+                &:after {
+                    content: "\00A0\25A0";
+                    opacity: 0.5;
+                    display: inline;
+                    margin-left: 0.25rem;
+                }
+
+                &:hover {
+                    background: var(--bs-gray-800);
+
+                    &:after {
+                        opacity: unset;
+                    }
+                }
+
+                .entry-head {
+                    &:after {
+                        content: ": ";
+                    }
+
+                    .headword {
+                        font-size: 1.25em;
+                    }
+                }
+
+                .alt-forms, .reversal-list {
+                    display: inline;
+                    font-size: 0.88em;
+
+                    &:before {
+                        content: "(";
+                    }
+
+                    &:after {
+                        content: ")";
+                    }
+
+                    & > li {
+                        display: inline;
+
+                        &:not(:last-child):after {
+                            content: "; ";
+                        }
+
+                        .trigger {
+                            color: var(--grammar);
+                            font-variant: small-caps;
+
+                            &:before {
+                                content: "(";
+                            }
+
+                            &:after {
+                                content: ")";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

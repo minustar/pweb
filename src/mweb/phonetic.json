@@ -1,0 +1,1022 @@
+[
+    {
+        "xsampa": "G\\_<",
+        "ipa": "\u029b",
+        "ucname": "LATIN LETTER SMALL CAPITAL G WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "J\\_<",
+        "ipa": "\u0284",
+        "ucname": "LATIN SMALL LETTER DOTLESS J WITH STROKE AND HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_B_L",
+        "ipa": "\u1dc5",
+        "ucname": "COMBINING GRAVE-MACRON",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_H_T",
+        "ipa": "\u1dc4",
+        "ucname": "COMBINING MACRON-ACUTE",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_R_F",
+        "ipa": "\u1dc8",
+        "ucname": "COMBINING GRAVE-ACUTE-GRAVE",
+        "ccls": 230
+    },
+    {
+        "xsampa": "|\\|\\",
+        "ipa": "\u01c1",
+        "ucname": "LATIN LETTER LATERAL CLICK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "<F>",
+        "ipa": "\u2198",
+        "ucname": "SOUTH EAST ARROW",
+        "ccls": 0
+    },
+    {
+        "xsampa": "<R>",
+        "ipa": "\u2197",
+        "ucname": "NORTH EAST ARROW",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_?\\",
+        "ipa": "\u02e4",
+        "ucname": "MODIFIER LETTER SMALL REVERSED GLOTTAL STOP",
+        "ccls": 0
+    },
+    {
+        "xsampa": "b_<",
+        "ipa": "\u0253",
+        "ucname": "LATIN SMALL LETTER B WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "d_<",
+        "ipa": "\u0257",
+        "ucname": "LATIN SMALL LETTER D WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "g_<",
+        "ipa": "\u0260",
+        "ucname": "LATIN SMALL LETTER G WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "r\\`",
+        "ipa": "\u027b",
+        "ucname": "LATIN SMALL LETTER TURNED R WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "!\\",
+        "ipa": "\u01c3",
+        "ucname": "LATIN LETTER RETROFLEX CLICK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "-\\",
+        "ipa": "\u203f",
+        "ucname": "UNDERTIE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "3\\",
+        "ipa": "\u025e",
+        "ucname": "LATIN SMALL LETTER CLOSED REVERSED OPEN E",
+        "ccls": 0
+    },
+    {
+        "xsampa": ":\\",
+        "ipa": "\u02d1",
+        "ucname": "MODIFIER LETTER HALF TRIANGULAR COLON",
+        "ccls": 0
+    },
+    {
+        "xsampa": "<\\",
+        "ipa": "\u02a2",
+        "ucname": "LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "=\\",
+        "ipa": "\u01c2",
+        "ucname": "LATIN LETTER ALVEOLAR CLICK",
+        "ccls": 0
+    },
+    {
+        "xsampa": ">\\",
+        "ipa": "\u02a1",
+        "ucname": "LATIN LETTER GLOTTAL STOP WITH STROKE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "?\\",
+        "ipa": "\u0295",
+        "ucname": "LATIN LETTER PHARYNGEAL VOICED FRICATIVE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "@\\",
+        "ipa": "\u0258",
+        "ucname": "LATIN SMALL LETTER REVERSED E",
+        "ccls": 0
+    },
+    {
+        "xsampa": "B\\",
+        "ipa": "\u0299",
+        "ucname": "LATIN LETTER SMALL CAPITAL B",
+        "ccls": 0
+    },
+    {
+        "xsampa": "G\\",
+        "ipa": "\u0262",
+        "ucname": "LATIN LETTER SMALL CAPITAL G",
+        "ccls": 0
+    },
+    {
+        "xsampa": "H\\",
+        "ipa": "\u029c",
+        "ucname": "LATIN LETTER SMALL CAPITAL H",
+        "ccls": 0
+    },
+    {
+        "xsampa": "I\\",
+        "ipa": "\u1d7b",
+        "ucname": "LATIN SMALL CAPITAL LETTER I WITH STROKE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "J\\",
+        "ipa": "\u025f",
+        "ucname": "LATIN SMALL LETTER DOTLESS J WITH STROKE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "K\\",
+        "ipa": "\u026e",
+        "ucname": "LATIN SMALL LETTER LEZH",
+        "ccls": 0
+    },
+    {
+        "xsampa": "L\\",
+        "ipa": "\u029f",
+        "ucname": "LATIN LETTER SMALL CAPITAL L",
+        "ccls": 0
+    },
+    {
+        "xsampa": "M\\",
+        "ipa": "\u0270",
+        "ucname": "LATIN SMALL LETTER TURNED M WITH LONG LEG",
+        "ccls": 0
+    },
+    {
+        "xsampa": "N\\",
+        "ipa": "\u0274",
+        "ucname": "LATIN LETTER SMALL CAPITAL N",
+        "ccls": 0
+    },
+    {
+        "xsampa": "O\\",
+        "ipa": "\u0298",
+        "ucname": "LATIN LETTER BILABIAL CLICK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "R\\",
+        "ipa": "\u0280",
+        "ucname": "LATIN LETTER SMALL CAPITAL R",
+        "ccls": 0
+    },
+    {
+        "xsampa": "U\\",
+        "ipa": "\u1d7f",
+        "ucname": "LATIN SMALL LETTER UPSILON WITH STROKE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "X\\",
+        "ipa": "\u0127",
+        "ucname": "LATIN SMALL LETTER H WITH STROKE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_\"",
+        "ipa": "\u0308",
+        "ucname": "COMBINING DIAERESIS",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_+",
+        "ipa": "\u031f",
+        "ucname": "COMBINING PLUS SIGN BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_-",
+        "ipa": "\u0320",
+        "ucname": "COMBINING MINUS SIGN BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_/",
+        "ipa": "\u030c",
+        "ucname": "COMBINING CARON",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_0",
+        "ipa": "\u0325",
+        "ucname": "COMBINING RING BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_=",
+        "ipa": "\u0329",
+        "ucname": "COMBINING VERTICAL LINE BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_>",
+        "ipa": "\u02bc",
+        "ucname": "MODIFIER LETTER APOSTROPHE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_A",
+        "ipa": "\u0318",
+        "ucname": "COMBINING LEFT TACK BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_B",
+        "ipa": "\u030f",
+        "ucname": "COMBINING DOUBLE GRAVE ACCENT",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_F",
+        "ipa": "\u0302",
+        "ucname": "COMBINING CIRCUMFLEX ACCENT",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_G",
+        "ipa": "\u02e0",
+        "ucname": "MODIFIER LETTER SMALL GAMMA",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_H",
+        "ipa": "\u0301",
+        "ucname": "COMBINING ACUTE ACCENT",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_L",
+        "ipa": "\u0300",
+        "ucname": "COMBINING GRAVE ACCENT",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_M",
+        "ipa": "\u0304",
+        "ucname": "COMBINING MACRON",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_N",
+        "ipa": "\u033c",
+        "ucname": "COMBINING SEAGULL BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_O",
+        "ipa": "\u0339",
+        "ucname": "COMBINING RIGHT HALF RING BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_R",
+        "ipa": "\u030c",
+        "ucname": "COMBINING CARON",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_T",
+        "ipa": "\u030b",
+        "ucname": "COMBINING DOUBLE ACUTE ACCENT",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_X",
+        "ipa": "\u0306",
+        "ucname": "COMBINING BREVE",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_\\",
+        "ipa": "\u0302",
+        "ucname": "COMBINING CIRCUMFLEX ACCENT",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_^",
+        "ipa": "\u032f",
+        "ucname": "COMBINING INVERTED BREVE BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_a",
+        "ipa": "\u033a",
+        "ucname": "COMBINING INVERTED BRIDGE BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_c",
+        "ipa": "\u031c",
+        "ucname": "COMBINING LEFT HALF RING BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_d",
+        "ipa": "\u032a",
+        "ucname": "COMBINING BRIDGE BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_e",
+        "ipa": "\u0334",
+        "ucname": "COMBINING TILDE OVERLAY",
+        "ccls": 1
+    },
+    {
+        "xsampa": "_h",
+        "ipa": "\u02b0",
+        "ucname": "MODIFIER LETTER SMALL H",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_j",
+        "ipa": "\u02b2",
+        "ucname": "MODIFIER LETTER SMALL J",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_k",
+        "ipa": "\u0330",
+        "ucname": "COMBINING TILDE BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_l",
+        "ipa": "\u02e1",
+        "ucname": "MODIFIER LETTER SMALL L",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_m",
+        "ipa": "\u033b",
+        "ucname": "COMBINING SQUARE BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_n",
+        "ipa": "\u207f",
+        "ucname": "SUPERSCRIPT LATIN SMALL LETTER N",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_o",
+        "ipa": "\u031e",
+        "ucname": "COMBINING DOWN TACK BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_q",
+        "ipa": "\u0319",
+        "ucname": "COMBINING RIGHT TACK BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_r",
+        "ipa": "\u031d",
+        "ucname": "COMBINING UP TACK BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_t",
+        "ipa": "\u0324",
+        "ucname": "COMBINING DIAERESIS BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_v",
+        "ipa": "\u032c",
+        "ucname": "COMBINING CARON BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "_w",
+        "ipa": "\u02b7",
+        "ucname": "MODIFIER LETTER SMALL W",
+        "ccls": 0
+    },
+    {
+        "xsampa": "_x",
+        "ipa": "\u033d",
+        "ucname": "COMBINING X ABOVE",
+        "ccls": 230
+    },
+    {
+        "xsampa": "_}",
+        "ipa": "\u031a",
+        "ucname": "COMBINING LEFT ANGLE ABOVE",
+        "ccls": 232
+    },
+    {
+        "xsampa": "_~",
+        "ipa": "\u0303",
+        "ucname": "COMBINING TILDE",
+        "ccls": 230
+    },
+    {
+        "xsampa": "d`",
+        "ipa": "\u0256",
+        "ucname": "LATIN SMALL LETTER D WITH TAIL",
+        "ccls": 0
+    },
+    {
+        "xsampa": "h\\",
+        "ipa": "\u0266",
+        "ucname": "LATIN SMALL LETTER H WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "j\\",
+        "ipa": "\u029d",
+        "ucname": "LATIN SMALL LETTER J WITH CROSSED-TAIL",
+        "ccls": 0
+    },
+    {
+        "xsampa": "l\\",
+        "ipa": "\u027a",
+        "ucname": "LATIN SMALL LETTER TURNED R WITH LONG LEG",
+        "ccls": 0
+    },
+    {
+        "xsampa": "l`",
+        "ipa": "\u026d",
+        "ucname": "LATIN SMALL LETTER L WITH RETROFLEX HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "n`",
+        "ipa": "\u0273",
+        "ucname": "LATIN SMALL LETTER N WITH RETROFLEX HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "p\\",
+        "ipa": "\u0278",
+        "ucname": "LATIN SMALL LETTER PHI",
+        "ccls": 0
+    },
+    {
+        "xsampa": "r\\",
+        "ipa": "\u0279",
+        "ucname": "LATIN SMALL LETTER TURNED R",
+        "ccls": 0
+    },
+    {
+        "xsampa": "r`",
+        "ipa": "\u027d",
+        "ucname": "LATIN SMALL LETTER R WITH TAIL",
+        "ccls": 0
+    },
+    {
+        "xsampa": "s\\",
+        "ipa": "\u0255",
+        "ucname": "LATIN SMALL LETTER C WITH CURL",
+        "ccls": 0
+    },
+    {
+        "xsampa": "s`",
+        "ipa": "\u0282",
+        "ucname": "LATIN SMALL LETTER S WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "t`",
+        "ipa": "\u0288",
+        "ucname": "LATIN SMALL LETTER T WITH RETROFLEX HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "v\\",
+        "ipa": "\u028b",
+        "ucname": "LATIN SMALL LETTER V WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "x\\",
+        "ipa": "\u0267",
+        "ucname": "LATIN SMALL LETTER HENG WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "z\\",
+        "ipa": "\u0291",
+        "ucname": "LATIN SMALL LETTER Z WITH CURL",
+        "ccls": 0
+    },
+    {
+        "xsampa": "z`",
+        "ipa": "\u0290",
+        "ucname": "LATIN SMALL LETTER Z WITH RETROFLEX HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "|\\",
+        "ipa": "\u01c0",
+        "ucname": "LATIN LETTER DENTAL CLICK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "||",
+        "ipa": "\u2016",
+        "ucname": "DOUBLE VERTICAL LINE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "!",
+        "ipa": "\ua71c",
+        "ucname": "MODIFIER LETTER RAISED DOWN ARROW",
+        "ccls": 0
+    },
+    {
+        "xsampa": "\"",
+        "ipa": "\u02c8",
+        "ucname": "MODIFIER LETTER VERTICAL LINE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "%",
+        "ipa": "\u02cc",
+        "ucname": "MODIFIER LETTER LOW VERTICAL LINE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "&",
+        "ipa": "\u0276",
+        "ucname": "LATIN LETTER SMALL CAPITAL OE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "'",
+        "ipa": "\u02b2",
+        "ucname": "MODIFIER LETTER SMALL J",
+        "ccls": 0
+    },
+    {
+        "xsampa": ".",
+        "ipa": ".",
+        "ucname": "FULL STOP",
+        "ccls": 0
+    },
+    {
+        "xsampa": "1",
+        "ipa": "\u0268",
+        "ucname": "LATIN SMALL LETTER I WITH STROKE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "2",
+        "ipa": "\u00f8",
+        "ucname": "LATIN SMALL LETTER O WITH STROKE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "3",
+        "ipa": "\u025c",
+        "ucname": "LATIN SMALL LETTER REVERSED OPEN E",
+        "ccls": 0
+    },
+    {
+        "xsampa": "4",
+        "ipa": "\u027e",
+        "ucname": "LATIN SMALL LETTER R WITH FISHHOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "5",
+        "ipa": "\u026b",
+        "ucname": "LATIN SMALL LETTER L WITH MIDDLE TILDE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "6",
+        "ipa": "\u0250",
+        "ucname": "LATIN SMALL LETTER TURNED A",
+        "ccls": 0
+    },
+    {
+        "xsampa": "7",
+        "ipa": "\u0264",
+        "ucname": "LATIN SMALL LETTER RAMS HORN",
+        "ccls": 0
+    },
+    {
+        "xsampa": "8",
+        "ipa": "\u0275",
+        "ucname": "LATIN SMALL LETTER BARRED O",
+        "ccls": 0
+    },
+    {
+        "xsampa": "9",
+        "ipa": "\u0153",
+        "ucname": "LATIN SMALL LIGATURE OE",
+        "ccls": 0
+    },
+    {
+        "xsampa": ":",
+        "ipa": "\u02d0",
+        "ucname": "MODIFIER LETTER TRIANGULAR COLON",
+        "ccls": 0
+    },
+    {
+        "xsampa": "=",
+        "ipa": "\u0329",
+        "ucname": "COMBINING VERTICAL LINE BELOW",
+        "ccls": 220
+    },
+    {
+        "xsampa": "?",
+        "ipa": "\u0294",
+        "ucname": "LATIN LETTER GLOTTAL STOP",
+        "ccls": 0
+    },
+    {
+        "xsampa": "@",
+        "ipa": "\u0259",
+        "ucname": "LATIN SMALL LETTER SCHWA",
+        "ccls": 0
+    },
+    {
+        "xsampa": "A",
+        "ipa": "\u0251",
+        "ucname": "LATIN SMALL LETTER ALPHA",
+        "ccls": 0
+    },
+    {
+        "xsampa": "B",
+        "ipa": "\u03b2",
+        "ucname": "GREEK SMALL LETTER BETA",
+        "ccls": 0
+    },
+    {
+        "xsampa": "C",
+        "ipa": "\u00e7",
+        "ucname": "LATIN SMALL LETTER C WITH CEDILLA",
+        "ccls": 0
+    },
+    {
+        "xsampa": "D",
+        "ipa": "\u00f0",
+        "ucname": "LATIN SMALL LETTER ETH",
+        "ccls": 0
+    },
+    {
+        "xsampa": "E",
+        "ipa": "\u025b",
+        "ucname": "LATIN SMALL LETTER OPEN E",
+        "ccls": 0
+    },
+    {
+        "xsampa": "F",
+        "ipa": "\u0271",
+        "ucname": "LATIN SMALL LETTER M WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "G",
+        "ipa": "\u0263",
+        "ucname": "LATIN SMALL LETTER GAMMA",
+        "ccls": 0
+    },
+    {
+        "xsampa": "H",
+        "ipa": "\u0265",
+        "ucname": "LATIN SMALL LETTER TURNED H",
+        "ccls": 0
+    },
+    {
+        "xsampa": "I",
+        "ipa": "\u026a",
+        "ucname": "LATIN LETTER SMALL CAPITAL I",
+        "ccls": 0
+    },
+    {
+        "xsampa": "J",
+        "ipa": "\u0272",
+        "ucname": "LATIN SMALL LETTER N WITH LEFT HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "K",
+        "ipa": "\u026c",
+        "ucname": "LATIN SMALL LETTER L WITH BELT",
+        "ccls": 0
+    },
+    {
+        "xsampa": "L",
+        "ipa": "\u028e",
+        "ucname": "LATIN SMALL LETTER TURNED Y",
+        "ccls": 0
+    },
+    {
+        "xsampa": "M",
+        "ipa": "\u026f",
+        "ucname": "LATIN SMALL LETTER TURNED M",
+        "ccls": 0
+    },
+    {
+        "xsampa": "N",
+        "ipa": "\u014b",
+        "ucname": "LATIN SMALL LETTER ENG",
+        "ccls": 0
+    },
+    {
+        "xsampa": "O",
+        "ipa": "\u0254",
+        "ucname": "LATIN SMALL LETTER OPEN O",
+        "ccls": 0
+    },
+    {
+        "xsampa": "P",
+        "ipa": "\u028b",
+        "ucname": "LATIN SMALL LETTER V WITH HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "Q",
+        "ipa": "\u0252",
+        "ucname": "LATIN SMALL LETTER TURNED ALPHA",
+        "ccls": 0
+    },
+    {
+        "xsampa": "R",
+        "ipa": "\u0281",
+        "ucname": "LATIN LETTER SMALL CAPITAL INVERTED R",
+        "ccls": 0
+    },
+    {
+        "xsampa": "S",
+        "ipa": "\u0283",
+        "ucname": "LATIN SMALL LETTER ESH",
+        "ccls": 0
+    },
+    {
+        "xsampa": "T",
+        "ipa": "\u03b8",
+        "ucname": "GREEK SMALL LETTER THETA",
+        "ccls": 0
+    },
+    {
+        "xsampa": "U",
+        "ipa": "\u028a",
+        "ucname": "LATIN SMALL LETTER UPSILON",
+        "ccls": 0
+    },
+    {
+        "xsampa": "V",
+        "ipa": "\u028c",
+        "ucname": "LATIN SMALL LETTER TURNED V",
+        "ccls": 0
+    },
+    {
+        "xsampa": "W",
+        "ipa": "\u028d",
+        "ucname": "LATIN SMALL LETTER TURNED W",
+        "ccls": 0
+    },
+    {
+        "xsampa": "X",
+        "ipa": "\u03c7",
+        "ucname": "GREEK SMALL LETTER CHI",
+        "ccls": 0
+    },
+    {
+        "xsampa": "Y",
+        "ipa": "\u028f",
+        "ucname": "LATIN LETTER SMALL CAPITAL Y",
+        "ccls": 0
+    },
+    {
+        "xsampa": "Z",
+        "ipa": "\u0292",
+        "ucname": "LATIN SMALL LETTER EZH",
+        "ccls": 0
+    },
+    {
+        "xsampa": "^",
+        "ipa": "\ua71b",
+        "ucname": "MODIFIER LETTER RAISED UP ARROW",
+        "ccls": 0
+    },
+    {
+        "xsampa": "`",
+        "ipa": "\u02de",
+        "ucname": "MODIFIER LETTER RHOTIC HOOK",
+        "ccls": 0
+    },
+    {
+        "xsampa": "a",
+        "ipa": "a",
+        "ucname": "LATIN SMALL LETTER A",
+        "ccls": 0
+    },
+    {
+        "xsampa": "b",
+        "ipa": "b",
+        "ucname": "LATIN SMALL LETTER B",
+        "ccls": 0
+    },
+    {
+        "xsampa": "c",
+        "ipa": "c",
+        "ucname": "LATIN SMALL LETTER C",
+        "ccls": 0
+    },
+    {
+        "xsampa": "d",
+        "ipa": "d",
+        "ucname": "LATIN SMALL LETTER D",
+        "ccls": 0
+    },
+    {
+        "xsampa": "e",
+        "ipa": "e",
+        "ucname": "LATIN SMALL LETTER E",
+        "ccls": 0
+    },
+    {
+        "xsampa": "f",
+        "ipa": "f",
+        "ucname": "LATIN SMALL LETTER F",
+        "ccls": 0
+    },
+    {
+        "xsampa": "g",
+        "ipa": "\u0261",
+        "ucname": "LATIN SMALL LETTER SCRIPT G",
+        "ccls": 0
+    },
+    {
+        "xsampa": "h",
+        "ipa": "h",
+        "ucname": "LATIN SMALL LETTER H",
+        "ccls": 0
+    },
+    {
+        "xsampa": "i",
+        "ipa": "i",
+        "ucname": "LATIN SMALL LETTER I",
+        "ccls": 0
+    },
+    {
+        "xsampa": "j",
+        "ipa": "j",
+        "ucname": "LATIN SMALL LETTER J",
+        "ccls": 0
+    },
+    {
+        "xsampa": "k",
+        "ipa": "k",
+        "ucname": "LATIN SMALL LETTER K",
+        "ccls": 0
+    },
+    {
+        "xsampa": "l",
+        "ipa": "l",
+        "ucname": "LATIN SMALL LETTER L",
+        "ccls": 0
+    },
+    {
+        "xsampa": "m",
+        "ipa": "m",
+        "ucname": "LATIN SMALL LETTER M",
+        "ccls": 0
+    },
+    {
+        "xsampa": "n",
+        "ipa": "n",
+        "ucname": "LATIN SMALL LETTER N",
+        "ccls": 0
+    },
+    {
+        "xsampa": "o",
+        "ipa": "o",
+        "ucname": "LATIN SMALL LETTER O",
+        "ccls": 0
+    },
+    {
+        "xsampa": "p",
+        "ipa": "p",
+        "ucname": "LATIN SMALL LETTER P",
+        "ccls": 0
+    },
+    {
+        "xsampa": "q",
+        "ipa": "q",
+        "ucname": "LATIN SMALL LETTER Q",
+        "ccls": 0
+    },
+    {
+        "xsampa": "r",
+        "ipa": "r",
+        "ucname": "LATIN SMALL LETTER R",
+        "ccls": 0
+    },
+    {
+        "xsampa": "s",
+        "ipa": "s",
+        "ucname": "LATIN SMALL LETTER S",
+        "ccls": 0
+    },
+    {
+        "xsampa": "t",
+        "ipa": "t",
+        "ucname": "LATIN SMALL LETTER T",
+        "ccls": 0
+    },
+    {
+        "xsampa": "u",
+        "ipa": "u",
+        "ucname": "LATIN SMALL LETTER U",
+        "ccls": 0
+    },
+    {
+        "xsampa": "v",
+        "ipa": "v",
+        "ucname": "LATIN SMALL LETTER V",
+        "ccls": 0
+    },
+    {
+        "xsampa": "w",
+        "ipa": "w",
+        "ucname": "LATIN SMALL LETTER W",
+        "ccls": 0
+    },
+    {
+        "xsampa": "x",
+        "ipa": "x",
+        "ucname": "LATIN SMALL LETTER X",
+        "ccls": 0
+    },
+    {
+        "xsampa": "y",
+        "ipa": "y",
+        "ucname": "LATIN SMALL LETTER Y",
+        "ccls": 0
+    },
+    {
+        "xsampa": "z",
+        "ipa": "z",
+        "ucname": "LATIN SMALL LETTER Z",
+        "ccls": 0
+    },
+    {
+        "xsampa": "{",
+        "ipa": "\u00e6",
+        "ucname": "LATIN SMALL LETTER AE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "|",
+        "ipa": "|",
+        "ucname": "VERTICAL LINE",
+        "ccls": 0
+    },
+    {
+        "xsampa": "}",
+        "ipa": "\u0289",
+        "ucname": "LATIN SMALL LETTER U BAR",
+        "ccls": 0
+    },
+    {
+        "xsampa": "~",
+        "ipa": "\u0303",
+        "ucname": "COMBINING TILDE",
+        "ccls": 230
+    }
+]

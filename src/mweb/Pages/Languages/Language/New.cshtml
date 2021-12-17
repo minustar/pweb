@@ -1,0 +1,79 @@
+@page "/languages/{lang_id}/words/new/"
+@model NewModel
+
+<div class="container">
+    <h2>New Entry</h2>
+    <h3>
+        @Model.Language.Name
+        @if (Model.Language.NativeName is not null)
+        {
+            <small class="text-muted">(@Model.Language.NativeName)</small>
+        }
+    </h3>
+
+    <form method="post">
+        <div class="text-danger" asp-validation-summary="All"></div>
+
+        <div class="row mb-3">
+            <label asp-for="Input.Headword" class="col-sm-2 col-form-label"></label>
+            <div class="col-md-8">
+                <div class="input-group">
+                    <input asp-for="Input.Headword" class="form-control" />
+                    <button type="button" data-action="convert" data-target="@Html.IdFor(x=>x.Input.Headword)"
+                            class="btn btn-outline-secondary" role="button">
+                         <i class="fa-solid fa-language"></i>
+                         <span class="sr-onbly">Convert</span>
+                    </button>
+                </div>
+                <span class="small text-danger" asp-validation-for="Input.Headword"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label asp-for="Input.SortKey" class="col-sm-2 col-form-label"></label>
+            <div class="col-md-8">
+                <input asp-for="Input.SortKey" class="form-control" />
+                <span class="small text-danger" asp-validation-for="Input.SortKey"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label asp-for="Input.WordType" class="col-sm-2 col-form-label"></label>
+            <div class="col-md-8">
+                <input list="@Html.IdFor( x=>x.WordTypes)" asp-for="Input.WordType" class="form-control" />
+                <datalist id="@Html.IdFor( x=>x.WordTypes)">
+                    @foreach (var w in Model.WordTypes)
+                    {
+                    <option value="@w.Key">@(w.Value ?? w.Key)</option>
+                    }
+                </datalist>
+                <span class="small text-danger" asp-validation-for="Input.WordType"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label asp-for="Input.Pronunciation" class="col-sm-2 col-form-label"></label>
+            <div class="col-md-8">
+                <div class="input-group">
+                    <input asp-for="Input.Pronunciation" class="form-control" />
+                    <button type="button" class="btn btn-outline-secondary" data-xsampa-source="@Html.IdFor(x => x.Input.Pronunciation)">XS&rarr;IPA</button>
+                </div>
+                <span class="small text-danger" asp-validation-for="Input.Pronunciation"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label asp-for="Input.Contents" class="col-sm-2 col-form-label"></label>
+            <div class="col-md-8">
+                <textarea rows="4" asp-for="Input.Contents" class="form-control"></textarea>
+                <span class="small text-danger" asp-validation-for="Input.Contents"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <button type="submit" role="button" class="btn btn-primary">
+                Add Word
+            </button>
+        </div>
+    </form>
+</div>
